@@ -5,13 +5,12 @@ import java.util.Scanner;
 
 public class FlipCoin {
 
+    Random random = new Random();
+    Scanner sc = new Scanner(System.in);
+    float h;
+    float t;
     public static void main(String[] args) {
-        static Random random = new Random();
-        static Scanner sc = new Scanner(System.in);
-        static float h;
-        static float t;
 
-        public static void main(String[] args) {
             System.out.println("Enter the Number of Flips: ");
             int num = sc.nextInt();
 
